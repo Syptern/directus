@@ -19,6 +19,6 @@
         }
     },
     "deploy": {
-        "startCommand": "npx directus bootstrap && npm install directus-extension-api-trigger-interface && npx directus start"
+        "startCommand": "npx directus bootstrap && npx directus start"
     }
 }
