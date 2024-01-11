@@ -34,5 +34,7 @@ module.exports = function (env) {
         EMAIL_SMTP_PORT	: env.EMAIL_SMTP_PORT,
         EMAIL_SMTP_USER: env.EMAIL_SMTP_USER,
         EMAIL_SMTP_PASSWORD: env.EMAIL_SMTP_PASSWORD,
+        EMAIL_TRANSPORT: env.EMAIL_TRANSPORT,
+        EMAIL_FROM: env.EMAIL_FROM,
     };
 };
