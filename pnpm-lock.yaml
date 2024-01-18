@@ -14,6 +14,9 @@ dependencies:
   directus-extension-computed-interface:
     specifier: ^1.9.0
     version: 1.9.0
+  directus-extension-seo:
+    specifier: ^1.2.4
+    version: 1.2.4
   directus-extension-tags-m2m-interface:
     specifier: ^0.8.0
     version: 0.8.0
@@ -5165,6 +5168,10 @@ packages:
 
   /directus-extension-computed-interface@1.9.0:
     resolution: {integrity: sha512-WCA7Z5F88AigicD4iC1+q9z/aPEN1qPxzRv4vUqjS/GYQD3PmaXhwQRhNmSDN9YFVX9Z0A5wQTBiErRk2mo38Q==}
+    dev: false
+
+  /directus-extension-seo@1.2.4:
+    resolution: {integrity: sha512-TpXmTqAQPfLrCrKc9HHrAa7sxy4+9yhStprZ7zOPhtMA5V8p+TIvRXJZy7v5b9Pi6u6Iw5sSHwYQxyl7tbFlWg==}
     dev: false
 
   /directus-extension-tags-m2m-interface@0.8.0:
