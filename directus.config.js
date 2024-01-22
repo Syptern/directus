@@ -1,6 +1,7 @@
 
 module.exports = function (env) {
     return {
+        CORS_ENABLED: false,
         // User inputs from railway starter button
         ADMIN_EMAIL: env.ADMIN_EMAIL,
         ADMIN_PASSWORD: env.ADMIN_PASSWORD,
