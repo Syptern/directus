@@ -14,6 +14,9 @@ dependencies:
   directus-extension-computed-interface:
     specifier: ^1.9.0
     version: 1.9.0
+  directus-extension-editorjs:
+    specifier: ^1.5.0
+    version: 1.5.0
   directus-extension-seo:
     specifier: ^1.2.4
     version: 1.2.4
@@ -5168,6 +5171,10 @@ packages:
 
   /directus-extension-computed-interface@1.9.0:
     resolution: {integrity: sha512-WCA7Z5F88AigicD4iC1+q9z/aPEN1qPxzRv4vUqjS/GYQD3PmaXhwQRhNmSDN9YFVX9Z0A5wQTBiErRk2mo38Q==}
+    dev: false
+
+  /directus-extension-editorjs@1.5.0:
+    resolution: {integrity: sha512-Rz0DCBp+Xulot6PEcfVnSUS9ekSO9VfnNMAMqA05i4p1REz3AXoWWO6wKE1p+1W+XNkZs9S1MvwVni6XGJzjcA==}
     dev: false
 
   /directus-extension-seo@1.2.4:
