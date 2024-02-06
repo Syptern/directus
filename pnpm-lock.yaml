@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   directus:
-    specifier: ^10.6.1
+    specifier: ^10.8.3
     version: 10.8.3(@unhead/vue@1.8.9)(pinia@2.1.7)(vue@3.3.13)
   directus-extension-api-trigger-interface:
     specifier: ^1.0.0
@@ -14,9 +14,6 @@ dependencies:
   directus-extension-computed-interface:
     specifier: ^1.9.0
     version: 1.9.0
-  directus-extension-editorjs:
-    specifier: ^1.5.0
-    version: 1.5.0
   directus-extension-seo:
     specifier: ^1.2.4
     version: 1.2.4
@@ -167,7 +164,7 @@ packages:
       '@smithy/middleware-serde': 2.0.16
       '@smithy/middleware-stack': 2.0.10
       '@smithy/node-config-provider': 2.1.9
-      '@smithy/node-http-handler': 2.2.1
+      '@smithy/node-http-handler': 2.2.2
       '@smithy/protocol-http': 3.0.12
       '@smithy/smithy-client': 2.2.1
       '@smithy/types': 2.8.0
@@ -265,7 +262,7 @@ packages:
       '@smithy/middleware-serde': 2.0.16
       '@smithy/middleware-stack': 2.0.10
       '@smithy/node-config-provider': 2.1.9
-      '@smithy/node-http-handler': 2.2.1
+      '@smithy/node-http-handler': 2.2.2
       '@smithy/protocol-http': 3.0.12
       '@smithy/smithy-client': 2.2.1
       '@smithy/types': 2.8.0
@@ -356,7 +353,7 @@ packages:
       '@smithy/middleware-serde': 2.0.16
       '@smithy/middleware-stack': 2.0.10
       '@smithy/node-config-provider': 2.1.9
-      '@smithy/node-http-handler': 2.2.1
+      '@smithy/node-http-handler': 2.2.2
       '@smithy/protocol-http': 3.0.12
       '@smithy/smithy-client': 2.2.1
       '@smithy/types': 2.8.0
@@ -769,7 +766,7 @@ packages:
       '@smithy/middleware-serde': 2.0.16
       '@smithy/middleware-stack': 2.0.10
       '@smithy/node-config-provider': 2.1.9
-      '@smithy/node-http-handler': 2.2.1
+      '@smithy/node-http-handler': 2.2.2
       '@smithy/property-provider': 2.0.17
       '@smithy/protocol-http': 3.0.12
       '@smithy/shared-ini-file-loader': 2.2.8
@@ -5171,10 +5168,6 @@ packages:
 
   /directus-extension-computed-interface@1.9.0:
     resolution: {integrity: sha512-WCA7Z5F88AigicD4iC1+q9z/aPEN1qPxzRv4vUqjS/GYQD3PmaXhwQRhNmSDN9YFVX9Z0A5wQTBiErRk2mo38Q==}
-    dev: false
-
-  /directus-extension-editorjs@1.5.0:
-    resolution: {integrity: sha512-Rz0DCBp+Xulot6PEcfVnSUS9ekSO9VfnNMAMqA05i4p1REz3AXoWWO6wKE1p+1W+XNkZs9S1MvwVni6XGJzjcA==}
     dev: false
 
   /directus-extension-seo@1.2.4:
