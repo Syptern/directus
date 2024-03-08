@@ -9,6 +9,7 @@
     "node": ">=18"
   },
   "dependencies": {
+    "@bicou/directus-extension-tiptap": "^1.14.0",
     "directus": "^10.10.1",
     "directus-extension-api-trigger-interface": "^1.0.0",
     "directus-extension-computed-interface": "^1.9.0",
