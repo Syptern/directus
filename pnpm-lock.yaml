@@ -8,21 +8,6 @@ dependencies:
   directus:
     specifier: ^10.10.1
     version: 10.10.1(@unhead/vue@1.8.11)(pinia@2.1.7)(vue@3.4.21)
-  directus-extension-api-trigger-interface:
-    specifier: ^1.0.0
-    version: 1.0.0
-  directus-extension-computed-interface:
-    specifier: ^1.9.0
-    version: 1.9.0
-  directus-extension-seo:
-    specifier: ^1.2.4
-    version: 1.3.2
-  directus-extension-tags-m2m-interface:
-    specifier: ^0.8.0
-    version: 0.8.0
-  directus-extension-upsert:
-    specifier: ^1.0.5
-    version: 1.0.5
   directus-extension-wpslug-interface:
     specifier: ^1.1.0
     version: 1.1.0
@@ -5065,28 +5050,6 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /directus-extension-api-trigger-interface@1.0.0:
-    resolution: {integrity: sha512-M6Qur/XCslPIuFLCPaLWrOwI7etYsHg8VnU4xkV2SkpackJpnynd7gxRDEqK6QuVFU4kpqZTbV7SZDoUSjbQFg==}
-    dependencies:
-      sass: 1.71.1
-    dev: false
-
-  /directus-extension-computed-interface@1.9.0:
-    resolution: {integrity: sha512-WCA7Z5F88AigicD4iC1+q9z/aPEN1qPxzRv4vUqjS/GYQD3PmaXhwQRhNmSDN9YFVX9Z0A5wQTBiErRk2mo38Q==}
-    dev: false
-
-  /directus-extension-seo@1.3.2:
-    resolution: {integrity: sha512-+AFhLPwigv1vl86/O+K7bOAduw0SjSdSXeHI3CnVwG7ez6f/5Q40vDZK7rgrPBZOzEhWYYDc5z+dN5Nh3rb1vQ==}
-    dev: false
-
-  /directus-extension-tags-m2m-interface@0.8.0:
-    resolution: {integrity: sha512-d9at+gzY86ztS6cRsd3CdjfOH1D3FREQZRz2FWD9CgHpySG84UWrLgrvEGunl2yM07mEX9KdQeE+LPlYTMbjoQ==}
-    dev: false
-
-  /directus-extension-upsert@1.0.5:
-    resolution: {integrity: sha512-7RnZdbUCuOQ4yOIBMEP0fZaUiKXALf0kKZHrqy4mT1odi3gCVCn43aMCuSv8yt/e4JAnylO3F++6mK/DZKzXhg==}
-    dev: false
-
   /directus-extension-wpslug-interface@1.1.0:
     resolution: {integrity: sha512-2dk0I7QQkfVF/jlK1o4pJ8rn3UmYQAvBVSzkaTXXuRYSksJ40zfDQcFsTgoWn4x0cb2ibtPTgIIEk4yvMXpBDA==}
     dev: false
@@ -6340,10 +6303,6 @@ packages:
 
   /ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
-    dev: false
-
-  /immutable@4.3.5:
-    resolution: {integrity: sha512-8eabxkth9gZatlwl5TBuJnCsoTADlL6ftEr7A4qgdaTsPyreilDSnUk57SO+jfKcNtxPa22U5KK6DSeAYhpBJw==}
     dev: false
 
   /import-fresh@3.3.0:
@@ -9032,16 +8991,6 @@ packages:
       is-plain-object: 5.0.0
       parse-srcset: 1.0.2
       postcss: 8.4.35
-    dev: false
-
-  /sass@1.71.1:
-    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    dependencies:
-      chokidar: 3.6.0
-      immutable: 4.3.5
-      source-map-js: 1.0.2
     dev: false
 
   /sax@1.3.0:
