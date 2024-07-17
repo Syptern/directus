@@ -5,9 +5,6 @@
   "scripts": {
     "start": "npx directus start"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "dependencies": {
     "directus": "^10.10.7",
     "directus-extension-computed-interface": "^1.9.0",
@@ -15,5 +12,8 @@
     "directus-extension-wpslug-interface": "^1.1.0",
     "pg": "^8.11.5"
   },
-  "packageManager": "pnpm@8.14.0"
+  "packageManager": "pnpm@8.6.3",
+  "engines": {
+    "node": "21.6.2"
+  }
 }
