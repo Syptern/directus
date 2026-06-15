@@ -6,7 +6,7 @@
     "start": "npx directus start"
   },
   "dependencies": {
-    "directus": "^10.10.7",
+    "directus": "^10.13.0",
     "directus-extension-computed-interface": "^1.9.0",
     "directus-extension-upsert": "^1.0.5",
     "directus-extension-wpslug-interface": "^1.1.0",
