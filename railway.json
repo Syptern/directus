@@ -3,6 +3,9 @@
     "build": {
         "builder": "NIXPACKS",
         "nixpacksPlan": {
+            "variables": {
+                "NPM_CONFIG_PYTHON": "python3.11"
+            },
             "phases": {
                 "setup": {
                     "nixPkgs": [
